@@ -157,3 +157,28 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.page-content {
+  flex: 1;
+  width: 100%;
+  padding: 40px 60px 60px;
+}
+
+.page-content__title {
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.page-content__text {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 720px;
+  opacity: 0.9;
+}
+
+.nav__link--active {
+  opacity: 1;
+  font-weight: 700;
+  border-bottom: 2px solid var(--red);
+}
